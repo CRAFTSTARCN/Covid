@@ -31,4 +31,4 @@ cd .../Covid
 python manage.py runserver 0.0.0.0:8000
 #8000 is your port
 ```  
-and project will be run in 127.0.0.1：8000
+and project will be run in 127.0.0.1:8000
