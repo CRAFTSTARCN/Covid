@@ -23,6 +23,25 @@ then install django by
 pip install django
 ```
 
+### Setting
+open file Covid/Covid/settings.py
+do as settings said
+
+```
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'YOUR_DATABASE_NAME',
+        'USER': 'YOUR_USER',
+        'PASSWORD': 'YOUR_PASS_WORD',
+        'HOST': '',
+        'PORT': '3306',
+    }
+}
+```
+
+remind: mysql default port:3306 if, reset the tocken in settings if chantged.
+
 ### run project
 in console  
 ```
